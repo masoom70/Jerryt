@@ -16,7 +16,7 @@ from pyrogram.types import Message
 from youtubesearchpython.__future__ import VideosSearch
 
 
-from AviaxMusic.utils.formatters import time_to_seconds
+from AnonXMusic.utils.formatters import time_to_seconds
 
 
 
