@@ -309,7 +309,7 @@ class YouTubeAPI:
                 return FILE_CACHE[vidid]
 
             FILE_CACHE[vidid] = "runnning"
-            api_url = f"http://ytstream.152.42.161.43.sslip.io/song/{vidid}?api=Rockstar"
+            api_url = f"http://ytstream.152.42.161.43.sslip.io/song/{vidid}?api=Jai"
 
             async with aiohttp.ClientSession() as session:
                 while True:
